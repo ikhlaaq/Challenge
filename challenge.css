@@ -1,0 +1,75 @@
+
+*{
+    box-sizing: border-box;
+    overflow: auto;
+}
+body {
+    background-image: url("bgimg.jpg");
+    background-size: contain;
+    margin: 0;
+
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px red;
+}
+h3 {
+    text-align: center;
+    color: red;
+}
+h3::before {
+    content: ">>>>>>";
+    position: relative;
+    margin-right: 5px;
+    
+    
+}
+h3::after {
+    content: "<<<<<<";
+    position: relative;
+    margin-left: 5px;
+}
+
+.text{
+    margin: 20%;
+}
+.form{
+    text-align: center;
+    display: block;
+    padding: 10px;
+
+}
+
+.datum{
+    font-size: x-large;
+    padding-right: 20px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.486);
+    border: 10px groove yellowgreen;
+    text-shadow: 2px 2px red;
+}
+
+.click {
+    width: 50%;
+    padding: 15px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.486);
+    color: #fff;
+    font-size: 3vw;
+    text-align: center;
+    text-shadow: 2px 2px red;
+    margin-left: 25%;
+    border: 10px groove yellowgreen;
+      
+  }
+
+
+.click:hover{
+    color: red;
+    text-shadow: 2px 2px green;
+}
+
+
+
