@@ -20,14 +20,14 @@ h3 {
     color: red;
 }
 h3::before {
-    content: ">>>>>>";
+    content: ">>>>>>>";
     position: relative;
     margin-right: 5px;
     
     
 }
 h3::after {
-    content: "<<<<<<";
+    content: "<<<<<<<";
     position: relative;
     margin-left: 5px;
 }
